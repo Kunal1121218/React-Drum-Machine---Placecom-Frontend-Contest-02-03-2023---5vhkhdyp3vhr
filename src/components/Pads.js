@@ -3,7 +3,7 @@ import Pad from "./Pad";
 import {bank1} from "./App"
 
 
-function Pads(power) {
+function Pads({power}) {
     const keypadCode = Object.keys(bank1);
     const[audioName, setAudioName] = useState(null);
     
