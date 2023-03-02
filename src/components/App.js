@@ -43,7 +43,7 @@ export const bank1 = {
 }
 
 
-function ControlScreen({volume, volumeHndler, on, onHandler }) {
+function ControlScreen({volume, volumeHandler, on, onHandler }) {
   return (
     <div id='control-screen'>
       <label id='label-power'>
