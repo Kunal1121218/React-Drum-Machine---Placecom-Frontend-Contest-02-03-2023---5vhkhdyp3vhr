@@ -11,8 +11,6 @@ function Pads(power) {
     setAudioName(e.name);
     };
 
-    const playSound = e => {
-    }
 
 
     return (
